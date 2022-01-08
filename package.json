@@ -1,12 +1,12 @@
 {
   "name": "postcss-theme-customization",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "PostCSS plugin for theme customization",
   "keywords": ["postcss", "css", "postcss-plugin", "postcss-theme-customization"],
   "scripts": {
-    "test": "jest --coverage && eslint ."
+    "test": "node index.test.js"
   },
-  "author": "qiuzhengqiang <13578575759@163.com>",
+  "author": "qiuzhengqiang",
   "license": "MIT",
   "repository": "zhengqiang/postcss-theme-customization",
   "engines": {

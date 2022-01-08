@@ -18,8 +18,10 @@ it('does something', async () => {
 // index.js
 postcss([plugin]).process(`
 .header[data-v-271ce826] {
-    color: #fff;
-    -dark-color: #000;
+  color: #FFF;
+  background-color: #FFF;
+  -dark-color: #000;
+  -dark-background-color: #000;
 }
 `).then(result => {
   console.log(result.css)

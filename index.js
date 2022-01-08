@@ -12,6 +12,15 @@ module.exports = (opts = {}) => {
           selector: `html[data-theme='dark'] ${decl.parent.selector}`,
           nodes: [newDecl],
         }))
+      } else if (decl.prop === '-dark-background-color') {
+        const newDecl = new Declaration({
+          prop: 'background-color',
+          value: decl.value
+        })
+        decl.root().append(new Rule({
+          selector: `html[data-theme='dark'] ${decl.parent.selector}`,
+          nodes: [newDecl],
+        }))
       }
     },
   }

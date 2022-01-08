@@ -5,15 +5,29 @@
 [PostCSS]: https://github.com/postcss/postcss
 
 ```css
-.foo {
-  /* Input example */
+.header[data-v-271ce826] {
+  color: #FFF;
+  background-color: #FFF;
+  -dark-color: #000;
+  -dark-background-color: #000;
 }
 ```
 
 ```css
-.foo {
-  /* Output example */
+.header[data-v-271ce826] {
+  color: #FFF;
+  background-color: #FFF;
+  -dark-color: #000;
+  -dark-background-color: #000;
 }
+html[data-theme='dark'] .header[data-v-271ce826] {
+  color: #000;
+}
+html[data-theme='dark'] .header[data-v-271ce826] {
+  background-color: #000;
+}
+
+
 ```
 
 ## Usage
