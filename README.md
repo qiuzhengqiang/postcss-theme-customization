@@ -6,7 +6,7 @@
 
 Support Postcss7.  Sass, Less, Stylus, css all can use it.
 
-It is a simplest way to add the dark mode to your app. 
+It is a simplest way to add the dark mode to your app.
 
 You only need add `-dark-color: #000;`  or  `-dark-background-color: #000;` to your existing style block.
 
