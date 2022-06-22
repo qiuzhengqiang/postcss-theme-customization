@@ -2,7 +2,27 @@
 
 [PostCSS] plugin for theme customization.
 
+
+
+Support Postcss7.  Sass, Less, Stylus, css all can use it.
+
+It is a simplest way to add the dark mode to your app. 
+
+You only need add `-dark-color: #000;`  or  `-dark-background-color: #000;` to your existing style block.
+
+It can extract the two css attribute to a new style block with `html[data-theme='dark']` selector.
+
+Then you can add attribute `data-theme='dark'` dynamiclly by js and the style in html[data-theme='dark'] block will work.
+
+In the way that you can add the dark mode to your app.
+
+
+
 [PostCSS]: https://github.com/postcss/postcss
+
+For example:
+
+The input css code
 
 ```css
 .header[data-v-271ce826] {
@@ -12,6 +32,11 @@
   -dark-background-color: #000;
 }
 ```
+
+
+
+The output css code
+
 
 ```css
 .header[data-v-271ce826] {
