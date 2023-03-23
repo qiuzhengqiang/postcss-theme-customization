@@ -22,7 +22,7 @@ In the way that you can add the dark mode to your app.
 
 For example:
 
-The input css code
+Your css code
 
 ```css
 .header[data-v-271ce826] {
@@ -35,7 +35,7 @@ The input css code
 
 
 
-The output css code
+Output css code
 
 
 ```css
