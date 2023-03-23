@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/zhengqiang/postcss-theme-customization/compare/v0.2.1...v0.2.2) (2023-03-23)
+
+
+### Bug Fixes
+
+* git config ([ad38b14](https://github.com/zhengqiang/postcss-theme-customization/commit/ad38b14ebddf08f4a7c38311b60a09b4f6e30ae5))
+
+
+
 ## 0.2.1 (2023-03-23)
 
 
