@@ -9,7 +9,11 @@
     "postcss-theme-customization"
   ],
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node index.test.js",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "initialChangelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "postversion": "git push && git push remote --tags"
   },
   "author": "qiuzhengqiang",
   "license": "MIT",
@@ -23,7 +27,9 @@
   "devDependencies": {
     "clean-publish": "^3.4.2",
     "eslint": "^8.0.1",
-    "postcss": "^7.0.39"
+    "postcss": "^7.0.39",
+    "conventional-changelog-cli": "^2.2.2",
+    "cz-conventional-changelog": "^3.3.0"
   },
   "eslintConfig": {
     "parserOptions": {
